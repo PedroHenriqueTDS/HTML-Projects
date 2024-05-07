@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*SELETORES PERSONALIZADOS :
+        # = id
+        . = class
+        : = pseudo-classe
+        :: = pseudo-elemento
+        > = Children/filho de...*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(43, 129, 214);
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: yellowgreen;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: aqua;
+            color: brown;
+        }
+        a::before{
+            content: '←';
+        } 
+        a::after{
+            content: ' →';;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando</h1>
+    <ul>
+        <li><a href="https://github.com/PedroHenriqueTDS" target="_blank">Repositório github</a></li>
+        <li><a href="https://www.twitch.tv/pedrohtds" target="_blank" class="especial">Canal twitch</a></li>
+        <li><a href="https://www.instagram.com/pedrotxz/" target="_blank" class="especial ">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>
