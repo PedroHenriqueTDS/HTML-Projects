@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: underline;
+        }
+        article{
+            background-color: rgb(203, 203, 203);
+            padding: 7px;
+        }
+        article > aside{
+            background-color: rgb(85, 85, 85);
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 6px 3px 7px 1px #0000004a;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p{
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Politica e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi nihil temporibus magnam vitae omnis quidem ut nesciunt corrupti optio hic quod quibusdam, ratione sint. Doloremque fugiat repudiandae amet aut!</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Trajano</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Peu </p>
+    </footer>    
+</body>
+</html>
