@@ -33,6 +33,19 @@
         }
         nav > a{
             color: azure;
+            height: 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            color: rgb(162, 178, 178);
+            text-decoration: underline;
+            font-size: 1.2em;
+            margin-right: 20px;
+            padding: 1px;
+            border-radius: 6px;
+            background-color: rgba(39, 30, 30, 0.474);
         }
         p{
             text-indent: 20px;
@@ -47,6 +60,7 @@
             width: 800px;
             margin: auto;
             padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
 
         }
         main > h1{
@@ -72,14 +86,36 @@
         margin-left: -20px;
         margin-bottom: -4px;
         }
-        #listaextra{
-            display: flex;
-            justify-content: space-between;
+        #listaextra {
+             display: flex;
+             justify-content: space-between;
+             width: 86%;
         }
         li{
-            width: 1%;
+            width: 112%; 
+            height: 22px;
         }
-
+        main > #extra{
+            background-color: #c5ebd6;
+            border-radius: 10px 10px 10px 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+        #extra > h2{
+            background-color: rgb(47,168,102);
+            padding: 10px 18px 12px 18px;
+            width: 764px;
+            margin-left: -10px;
+            border-radius: 10px 10px 0px 0px;
+            color: white;
+        }
+        footer{
+            background-color: rgb(26,92,56);
+            color: #f1faff;
+            text-align: center;
+            margin-bottom: -20px;
+        }
     </style>
 </head>
 <body>
@@ -88,10 +124,10 @@
         <p>Tudo aquilo que você sempre quis saber sobre o mundo <br>Tech, em um único lugar
         </p>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Noticias</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Fale conosco</a>
+            <a href="#">Home</a> 
+            <a href="#">Notìcias</a> 
+            <a href="#">Curiosidades</a> 
+            <a href="#">Fale Conosco</a>
         </nav>
     </header>
     <main>
@@ -120,27 +156,36 @@
         <div id="midiacentral"><img src="imagens/bugdroid.png" alt="bugdroid" id="bugdroid"></div>
         <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=EwuKhJeDrDSEHTdG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <h2>Quer aprender mais?</h2>
-        <div id="listaextra" >
-            <ul>
-                <li>1.5 - Cupcake</li>
-                <li>1.6 - Donut</li>
-                <li>3.0 - Eclair</li>
-                <li>2.2 - Froyo</li>
-                <li>2.3 - Gingerbread</li>
-                <li>3.0 - Honeycomb</li>
-                <li>4.0 - Ice Cream Sandwich</li>
-            </ul>
-            <ul>
-                <li>4.1 - Jelly Bean</li>
-                <li>4.4 - KitKat</li>
-                <li>5.0 - Lolipop</li>
-                <li>6.0 - Marshmallow</li>
-                <li>7.0 - Nougat</li>
-                <li>8.0 - Oreo</li>
-                <li>9.0 - Pie</li>
-            </ul>
+        <div id="extra">
+            <h2>Quer aprender mais?</h2>
+            <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+            <div id="listaextra" >
+                <ul type = check>
+                    <li>1.5 - Cupcake</li>
+                    <li>1.6 - Donut</li>
+                    <li>3.0 - Eclair</li>
+                    <li>2.2 - Froyo</li>
+                    <li>2.3 - Gingerbread</li>
+                    <li>3.0 - Honeycomb</li>
+                    <li>4.0 - Ice Cream Sandwich</li>
+                </ul>
+                <ul>
+                    <li>4.1 - Jelly Bean</li>
+                    <li>4.4 - KitKat</li>
+                    <li>5.0 - Lolipop</li>
+                    <li>6.0 - Marshmallow</li>
+                    <li>7.0 - Nougat</li>
+                    <li>8.0 - Oreo</li>
+                    <li>9.0 - Pie</li>
+                </ul>
+            </div>
+            <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+            </p>
+            <p>Acesse aqui o site <a href="" class="linksartigo">Android History🖇️</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.[/EXTRA]</p>
         </div>
+        <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
+        </p>
+
     </main>
         <footer>
             <p>Website desenvolvido por Pedro Henrique para Peu</p>
