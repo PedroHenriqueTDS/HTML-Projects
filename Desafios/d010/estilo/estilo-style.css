@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf)format('opentype');
+    font-weight: auto;
+    font-style: none;
+}
+header{
+    background-image: linear-gradient(rgb(59,210,127), rgb(33,114,69));
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: azure;
+    margin: -8px;
+    margin-bottom: 0px;
+}
+header > p{
+    text-shadow: 1.3px 1px 0px rgba(0, 0, 0, 0.388);
+    text-indent: 0px;
+    
+}
+#titulo{
+    text-shadow: 1.3px 1px 0px rgba(0, 0, 0, 0.355) ;
+}
+#linktitulo{
+    color: azure;
+    text-decoration: none;
+}
+header > nav{
+    text-align: left;
+}
+nav > a{
+    color: azure;
+    height: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 20px;
+}
+nav > a:hover{
+    color: rgb(97, 133, 119);
+    text-decoration: underline;
+}
+p{
+    text-indent: 20px;
+    font-size: 1.2em;
+}
+body{
+    background-color: rgb(132,225,173);
+}
+main{
+    background-color: white;
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main > h1{
+    background-image: linear-gradient(to right, rgb(197,235,213), rgb(255, 255, 255));
+    text-indent: 5px;
+    font-family: idroid;
+    color: rgb(10, 123, 62);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+p > a{
+    color: rgb(48, 135, 48);
+    font-weight: bolder;
+    text-decoration: none;
+}
+main > p > a:hover{
+    color:rgb(33, 94, 33);
+    text-decoration: underline;
+}
+footer > p > a{
+    color: #fee3ae;
+    
+}
+#midiacentral{
+    text-align: center;
+}
+iframe{
+background-color: green;
+padding: 14px 40px 14px 40px;
+width: 760px;
+height: 430px;
+margin-left: -20px;
+margin-bottom: -4px;
+}
+#listaextra {
+     display: flex;
+     justify-content: space-between;
+     width: 86%;
+}
+li{
+    width: 112%; 
+    height: 22px;
+}
+main > #extra{
+    background-color: #c5ebd6;
+    border-radius: 10px 10px 10px 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.289);
+}
+#extra > h2{
+    background-color: rgb(47,168,102);
+    padding: 10px 18px 12px 18px;
+    width: 764px;
+    margin-left: -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+#extra > p > a:hover{
+    color:rgb(33, 94, 33);
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(26,92,56);
+    color: #f1faff;
+    text-align: center;
+    margin-bottom: -20px;
+}
